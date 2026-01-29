@@ -74,15 +74,15 @@ app.get("/", (req, res) => {
   });
 });
 
-// GET /version (Practice Task 12)
+// GET /version 
 app.get("/version", (req, res) => {
   res.status(200).json({
-    version: "1.2",
-    updatedAt: "2026-01-26",
+    version: "1.3",
+    updatedAt: "2026-01-29",
   });
 });
 
-// ===================== PRODUCTS API (Tasks 10-11) =====================
+
 
 // GET /api/products (filter + sort + projection)
 app.get("/api/products", async (req, res) => {
